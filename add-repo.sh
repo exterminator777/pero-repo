@@ -10,7 +10,6 @@ pink='\033[1;35m'
 #UwUwUwUwUwUwUwU
 list="$PREFIX/etc/apt/sources.list.d/pero-repo.list"
 
-
 #Pero-Repo Installation
 
 check=$(uname -o)
@@ -24,12 +23,8 @@ fi
 
 #requirements
 echo -e $grn Installing Requirements.... $rset
-if ! hash gpg 2>/dev/null;then
-    apt install gnupg 2&>1 &> /dev/null
-else
-    echo -e $grn [OK] GNUPG is Installed $rset
-fi
-
+apt install gnupg -y &>/dev/null
+echo -e [OK] GNUPG Installed
 #KEY
 sleep 1
 echo -e $grn [+] Adding KEY $rset
