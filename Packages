@@ -4,10 +4,10 @@ Architecture: all
 Maintainer: @termux-tools
 Depends: php,python2,curl,wget,unzip
 Filename: ./xphisher.deb
-Size: 8996
-MD5sum: 4505c0b25b522d76f23422c9fb94db5f
-SHA1: cc1c84f0d0be2cedeab474bd3f75c5f3aabe1fc8
-SHA256: fc4e5af59dd741d3819d547983e3231746152ef396a28ee74a4af088941cbda7
+Size: 8988
+MD5sum: d6ff109a209cfcf4de2f384c1f2beaff
+SHA1: 425a84376c6256bd4dc1a0d9d72613a33806dce8
+SHA256: 85ca4b6f8d619a3b2faf7bfdacb822b4033006ae5c1bd52c38bef0a765209188
 Homepage: https://github.com/pro-phisher-x/x-phisher
 Description: The best phishing tool with 50+ Pages
 
