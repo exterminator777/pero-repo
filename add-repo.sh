@@ -22,7 +22,7 @@ echo -e $red "[!] Use This Repo in Termux Only" $rset
 fi
 
 #requirements
-echo -e $grn Installing Requirements.... $rset
+echo -e $grn [+] Installing Requirements.... $rset
 apt install gnupg -y &>/dev/null
 echo -e [OK] GNUPG Installed
 #KEY
@@ -34,13 +34,13 @@ apt-key add KEY.gpg
 rm -rf KEY.gpg
 
 if [ -f "$list" ];then
-echo -e $grn Repo Already Exists!!
+echo -e $grn [OK] Repo Already Exists!!
 else
 echo $grn [+] DONE
 fi
 
 #Final
-echo -e $grn "Finalizing..." $rset
+echo -e $grn "[*] Finalizing..." $rset
 echo "deb https://exterminator777.github.io/pero-repo ./" > $list
 sleep 2
 
