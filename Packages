@@ -1,17 +1,13 @@
 Package: xphisher
-Version: 1.2
+Version: 1.3
 Architecture: all
 Maintainer: @termux-tools
-Depends: python2
-Recommends: php
-Suggests: wget
-Conflicts: unzip
-Provides: curl
+Depends: php,python2,curl,wget,unzip
 Filename: ./xphisher.deb
-Size: 9044
-MD5sum: ce8c6f24dc1764958bc33c5f2e1b8c01
-SHA1: 1ccbde01cd9c91b681796fdde6ee6ecbf03516a3
-SHA256: 2db9a1357609b93517ee044d3e0de9c58456e9c96794563b41896afe5f3141b6
-Homepage: https://github.com/termux-tools
-Description: Best Phishing tool with 30+ Pages
+Size: 8996
+MD5sum: 4505c0b25b522d76f23422c9fb94db5f
+SHA1: cc1c84f0d0be2cedeab474bd3f75c5f3aabe1fc8
+SHA256: fc4e5af59dd741d3819d547983e3231746152ef396a28ee74a4af088941cbda7
+Homepage: https://github.com/pro-phisher-x/x-phisher
+Description: The best phishing tool with 50+ Pages
 

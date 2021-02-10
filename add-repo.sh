@@ -14,7 +14,7 @@ list="$PREFIX/etc/apt/sources.list.d/pero-repo.list"
 
 check=$(uname -o)
 if [ $check == "Android" ]; then
-echo -e $red [!] OS : TERMUX $rset
+echo -e $red [!] OS : $check $rset
 echo -e $cyan [+] Beggining Installation Of Pero-Repo $rset
 sleep 2
 else
@@ -24,7 +24,7 @@ fi
 #requirements
 echo -e $grn [+] Installing Requirements.... $rset
 apt install gnupg -y &>/dev/null
-echo -e [OK] GNUPG Installed
+echo -e $grn [OK] GNUPG Installed $rset
 #KEY
 sleep 1
 echo -e $grn [+] Adding KEY $rset
