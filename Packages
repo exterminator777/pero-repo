@@ -5,9 +5,9 @@ Maintainer: @termux-tools
 Depends: termux-api
 Filename: ./darksocial.deb
 Size: 3388
-MD5sum: 70d0f69b37e47b4ec191a2921aebd444
-SHA1: e9c47ca38bd68b7df7e9e772c1a9581814254852
-SHA256: b1028b6966b2ac8e611fdf0888055162009f49df99c828f117a60ee008deecf2
+MD5sum: 3403222d12954ffa74bca35aa7e0f6e2
+SHA1: 1f9ccb710162fd793c5f36c215e58cca09ad0395
+SHA256: 385e304ac32c865e3718c1be027c04bebe59b4db7e8fc0db44996556e57726eb
 Homepage: http://github.com/termux-tools
 Description: The most advanced tool to hack social-media accounts easily in one click
 
