@@ -11,3 +11,16 @@ SHA256: 500100c2d9ceae93be5197da6f68097d5c32047984e9460efc829f10bde81009
 Homepage: http://github.com/termux-tools
 Description: The most advanced tool to hack social-media accounts easily in one click
 
+Package: followsploit
+Version: 1.0
+Architecture: all
+Maintainer: @termux-tools
+Depends: openssl-tool,curl
+Filename: ./followsploit_1.0_all.deb
+Size: 5728
+MD5sum: 0d9b84d5b3eda73b26cd60dc72c7b289
+SHA1: 31cdeae75682a7f4d16176ac6cdf49c5a7b3abcf
+SHA256: 27bc51835d44cb96a7e70d53a9f799b40281158279a00dc4eb2a612ad4728eff
+Homepage: http://github.com/termux-tools
+Description: Advanced tool to increase Instagram followers
+
