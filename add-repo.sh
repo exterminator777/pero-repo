@@ -18,6 +18,8 @@ echo -e $red [!] OS : $check $rset
 echo -e $cyan [+] Beggining Installation Of Pero-Repo $rset
 sleep 2
 else
+echo -e $red [!] Your OS : $check $rset
+echo -e $red [!] This Script Supports : Android $rset
 echo -e $red "[!] Use This Repo in Termux Only" $rset
 fi
 
