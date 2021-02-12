@@ -24,3 +24,16 @@ SHA256: 5b46804f5193b7c9a480c7e9f3ecb9bc0fa6374cf134bafb3326c4429427d714
 Homepage: http://github.com/termux-tools
 Description: Advanced tool to increase Instagram followers
 
+Package: xphisher
+Version: 1.1
+Architecture: all
+Maintainer: @termux-tools
+Depends: curl,wget,unzip,python2
+Filename: ./xphisher_1.1_all.deb
+Size: 8984
+MD5sum: 565065e12d8b42e844d830fb64c13ab5
+SHA1: e362e65229a7f80cf9c0a1d3dd612faf10954ea5
+SHA256: e9e286aaaf3d58481dc359a7ec121a051f292da17d7b7f031a651eff47d048b3
+Homepage: http://github.com/termux-tools
+Description: Advanced tool for phishing with 50+ Pages
+
