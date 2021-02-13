@@ -21,6 +21,7 @@ else
 echo -e $red [!] Your OS : $check $rset
 echo -e $red [!] This Script Supports : Android $rset
 echo -e $red "[!] Use This Repo in Termux Only" $rset
+exit 0
 fi
 
 #requirements
@@ -38,7 +39,7 @@ rm -rf KEY.gpg
 if [ -f "$list" ];then
 echo -e $grn [OK] Repo Already Exists!!
 else
-echo $grn [+] DONE
+echo -e $grn [+] DONE
 fi
 
 #Final
